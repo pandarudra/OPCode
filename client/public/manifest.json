@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "OPCode",
+  "version": "1.0",
+  "description": "AI-powered debugging and optimization assistant",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["*://*/*"],
+
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "ai.png",
+      "48": "ai.png",
+      "128": "ai.png"
+    },
+    "default_popup_size": {
+      "width": 800,
+      "height": 600
+    }
+  }
+}
